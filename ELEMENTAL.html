@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ELEMENTAL</title>
+    <script src="./js/elemental.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    
+    <div id="tituloPrincipal">
+        <h1 class="title">Elemental 🔥💧🌱</h1>
+    </div>
+    <section id="subtituloOculto">
+        <div id="subtitulo">
+            <h2 class="subtitle">Elige tu mascota:</h2>
+        </div> <br><br>
+    </section>
+        
+    <section id="seleccionar-mascota">
+
+        <div class="squirtleTarjeta">
+            <input type="radio" name="mascota" id="squirtle" />
+            <label for="squirtle"><p>Squirtle</p>
+               <img src="./imagenes/squirtle.png" alt="Squirtle">  
+            <br>
+            </label>
+        </div>
+
+        <div class="charmanderTarjeta">
+            <input type="radio" name="mascota" id="charmander" />
+            <label for="charmander"><p>Charmander</p> 
+               <img src="./imagenes/charmander.png" alt="Charmander">
+            </label>
+        </div>
+
+        <div class="bulbasaurTarjeta"> 
+            <input type="radio" name="mascota" id="bulbasaur" />
+            <label for="bulbasaur"><p>Bulbasaur</p>
+                <img src="./imagenes/bulbasaur.png" alt="Bulbasaur">
+            </label>
+        </div>
+
+    </section>
+   
+        
+    <section id="botonSeleccionarDefinitivo">
+        <div class="botonSeleccionar"> <button id="bt-mascota">Seleccionar</button></div>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <div class="subtitulo2">
+            <h2>Elige tu ataque:</h2>
+        </div>
+        <div id="ataques">
+            <p>Tu mascota <span id="nombreMascotaJugador"></span>tiene <span id="vidasJugador">3</span> vidas</p>
+        </div>
+        <div id="ataques2">
+            <p>La mascota de tu enemigo <span id="MascotaEnemigo"></span>tiene <span id="vidasEnemigo">3</span> vidas
+            </p>
+        </div>
+        <div id="botonesDeAtaque">
+            <p>
+                <button id="bt-fuego">Fuego </button>
+                <button id="bt-agua">Agua </button>
+                <button id="bt-tierra">Tierra </button>
+            </p>
+        </div>
+        
+    </section>
+
+    <section id="mensajes">
+        <div id="trMensajes"></div>
+    </section>
+
+    <section id="reiniciar">
+        <div id="reiniciarBoton">
+        <button id="bt-reiniciar">Volver a jugar</button>
+        </div>
+    </section>
+    
+</body>
+
+</html>
